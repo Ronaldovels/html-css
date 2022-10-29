@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: Sage;
+}
+
+
+:root {
+    --cor0: #0E0F0F;
+    --cor1: black;
+    --cor2: #a3a3a3;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor0);
+    color: white;
+}
+
+aside {
+    background-color: black;
+    width: 250px;
+    height: 1250px;
+}
+
+#title {
+    margin: 0px;
+}
+
+button {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.151);
+}
+
+.sidebar {
+    height: 30x;
+    width: 30px;
+    padding: 0px;
+    background-color: p;
+    
+}
+
+
+main {
+    text-align: center;
+    height: 3114px;
+}
+
+article {
+    width: 975px;
+}
+
+img {
+    width: 140px;
+    padding-left: 150px;
+}
+
+#perfil {
+    
+}
+
+.user {
+    text-align: center;
+}
+
+#as {
+
+}
+
+nav {
+   
+}
+
+span {
+    font-weight: bold;
+}
+
+.name {
+ 
+}
+
+
+.destaque {
+    font-weight: 500;
+    color: white;
+}
+
+.ndestaque {
+    color: var(--cor2);
+    font-weight: normal;
+}
+
+#follow {
+    font-size: small;
+    padding-left: 150px ;
+}
