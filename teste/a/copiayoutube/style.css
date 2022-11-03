@@ -22,9 +22,15 @@ body {
 }
 
 aside {
+    position: absolute;
     background-color: black;
     width: 250px;
-    height: 1250px;
+    height: 98vh;
+    border-right: 0.1em solid rgb(83, 83, 83);
+}
+
+#marca {
+    padding-bottom: 20px;
 }
 
 #title {
@@ -46,14 +52,24 @@ button:hover {
     height: 30x;
     width: 30px;
     padding: 0px;
-    background-color: p;
+    font-weight: normal;
     
+}
+
+ul {
+    list-style-type: none;
 }
 
 
 main {
+    position: absolute;
     text-align: center;
-    height: 3114px;
+    height: 98vh;
+    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
 article {
