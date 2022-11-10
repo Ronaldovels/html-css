@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {
+        font-family: "Raleway", sans-serif
+    }
+    </style>
+</head>
+    <body class="w3-light-grey w3-content" style="max-width:1600px">
+    
+    <!-- Sidebar/menu -->
+    <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+      <div class="w3-container">
+        <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+          <i class="fa fa-remove"></i>
+        </a>
+        <img src="media/carolperfil.png" style="width:45%;" class="w3-round"><br><br>
+        <h4><b>EU TE AMO</b></h4>
+        <p class="w3-text-grey">Você é o amor da minha vida.</p>
+      </div>
+      <div class="w3-bar-block">
+        <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>NOSSAS FOTOS</a> 
+        <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>CARTINHA</a> 
+      </div>
+    </nav>
+    
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+    
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left:300px">
+    
+      <!-- Header -->
+      <header id="portfolio">
+        <a href="#"><img src="media/carolperfil.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+        <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-container">
+        <h1><b>Fotinhas Lindas Nossas</b></h1>
+        </div>
+      </header>
+      
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="media/pg3/2dba0d00-621a-4ab0-a66a-0395c9103d4c.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="media/pg3/65d9aa43-d97f-4a63-bdea-a5401f91a575.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container">
+          <img src="media/pg3/9993fabf-549a-41bb-9e29-c29f7eb6db40.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Second Photo Grid-->
+      <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="media/pg3/bc83a122-b974-4c33-8af1-443f2fbf312a.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <img src="media/pg3/e57c9caa-feec-4830-80b0-136c7655ce43.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+        <div class="w3-third w3-container">
+          <img src="media/pg3/f1403475-7bdb-4ee6-98d8-67f7108a3af3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Lorem Ipsum</b></p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Pagination -->
+      <div class="w3-center w3-padding-32">
+        <div class="w3-bar">
+          <a href="index.html" class="w3-bar-item w3-button w3-hover-black">«</a>
+          <a href="indexpag2.html" class="w3-bar-item w3-black w3-button">1</a>
+          <a href="indexpag3.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+          <a href="indexpag4.html" class="w3-bar-item w3-button w3-hover-black">3</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+          <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+        </div>
+    
+      <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+        <h4><b>Cartinha</b></h4>
+        <p>Oi namorada aqui é o amor da sua vida&#x1F929. Você sabe que eu to fazendo uns cursos de site né?(não fui eu que fiz esse todo) e que você tá passando por um momento meio infeliz logo eu como seu namorado tenho a obrigação de te alegrar. Pensando nisso eu resolvi trazer alguns momentos nossos em formato de site pra unir o util ao agradável.</p>
+        <p>Você é a maior felicidade na minha vida. Você é tudo que eu mais quero. Você é tudo de bom que eu podia pedir. Você e com quem eu quero passar o resto da minha vida junto. Você é foda e espero que nunca duvide disso. Eu te amo, te quero, te respeito e vou te comer um dia&#x1F929&#x1F929&#x1F929.</p>
+        <hr>
+        
+        <h4>Algumas estatísticas que acho importante</h4>
+        <!-- Progress bars / Skills -->
+        <p>Vontade de casar com você</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:100%">Muito grande mesmo você nem imagina</div>
+        </div>
+        <p>O tamanho das nossas bundas</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:110%">Grande pra krl</div>
+        </div>
+        <p>Meu amor por você &#x0221E&#x0221E&#x0221E</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-dark-grey w3-padding w3-center" style="width: 100000%; height: 38.5px;"></div>
+        </div>
+        <hr>
+        
+        <h4>Quanto você custa</h4>
+        <!-- Pricing Tables -->
+        <div class="w3-row-padding" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <li class="w3-black w3-xlarge w3-padding-32">No começo</li>
+              <li class="w3-padding-16">Presente todo dia 14</li>
+              <li class="w3-padding-16">Saiamos um monte</li>
+              <li class="w3-padding-16">Eu queria pagar tudo pra você e tava no meu direito</li>
+              <li class="w3-padding-16">Você não queria deixar eu pagar mas eu pagava mesmo assim</li>
+              <li class="w3-padding-16">
+                <h2>$300k</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <li class="w3-teal w3-xlarge w3-padding-32">Meio</li>
+              <li class="w3-padding-16">Presente só em dada importante (bolsonaro fdp)</li>
+              <li class="w3-padding-16">Saimos de vez enquanto mas quase sempre sem gastar</li>
+              <li class="w3-padding-16">Eu aceitei dividir as coisas</li>
+              <li class="w3-padding-16">Você aceitou que eu amo mais</li>
+              <li class="w3-padding-16">
+                <h2>$170k</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="w3-third">
+            <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+              <li class="w3-black w3-xlarge w3-padding-32">Agora</li>
+              <li class="w3-padding-16">Nem te conto qual é o presente &#x1F63C&#x1F63C</li>
+              <li class="w3-padding-16">Quase não sai aff &#x1F62D</li>
+              <li class="w3-padding-16">A gente divide tudo sempre</li>
+              <li class="w3-padding-16">A gente conversa sobre tudo e se ama muito mais do que nunca</li>
+              <li class="w3-padding-16">
+                <h2>$50k</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Footer -->
+      <footer class="w3-container w3-padding-32 w3-dark-grey">
+      <div class="w3-row-padding">
+        <div class="w3-third">
+          <h3>CONSIDERAÇÕES FINAIS</h3>
+          <p>Você é muito foda a gente vai ser casar sim. Negar não é uma opção nesse caso viu?&#x1F929&#x1F929Te amo.</p>
+        </div>
+      
+        <div class="w3-third">
+          <h3>EU AMO ESSA FOTO, PORRA!!!!!!!!</h3>
+          <img src="media/pg4/16e8ecfe-b5ac-4bf8-9543-d45eb74e6a0e.jpg" alt="" style="width: 50%;">
+        </div>
+    
+        <div class="w3-third">
+          <h3>ELOGIOS PARA VOCÊ</h3>
+          <p>
+            <span class="w3-tag w3-black w3-margin-bottom">Nobre</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Linda</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Gostosa</span>
+            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Atenciosa</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Inteligente</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Sensual</span>
+            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Saborosa</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Apetitosa</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Companheira</span>
+            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Confiável</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Calorosa</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Acolhedora</span>
+            <span class="w3-tag w3-grey w3-small w3-margin-bottom">Aconchegante</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Meu porto seguro</span>
+          </p>
+        </div>
+    
+      </div>
+      </footer>
+      
+      <div class="w3-black w3-center w3-padding-24">Ronaldo Veloso Filho</div>
+    
+    <!-- End page content -->
+    </div>
+    
+    <script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+     
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
+    
+    </body>
+    </html>
