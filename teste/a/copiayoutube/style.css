@@ -19,10 +19,13 @@
 body {
     background-color: var(--cor0);
     color: white;
+    height: 1500px;
+    position: relative;
 }
 
-aside {
-    position: absolute;
+aside#barra-lateral {
+    position: sticky;
+    top: -1px;
     background-color: black;
     width: 250px;
     height: 98vh;
@@ -49,7 +52,7 @@ button:hover {
 }
 
 .sidebar {
-    height: 30x;
+    height: 30px;
     width: 30px;
     padding: 0px;
     font-weight: normal;
